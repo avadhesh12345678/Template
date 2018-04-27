@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D43167A2093CA0900F1EE50 /* AppStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4316792093CA0900F1EE50 /* AppStoryboard.swift */; };
 		5D820BA420939915000BDDE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D820BA320939915000BDDE4 /* AppDelegate.swift */; };
 		5D820BA620939915000BDDE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D820BA520939915000BDDE4 /* ViewController.swift */; };
 		5D820BA920939915000BDDE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D820BA720939915000BDDE4 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D4316792093CA0900F1EE50 /* AppStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoryboard.swift; sourceTree = "<group>"; };
 		5D820BA020939914000BDDE4 /* ProjectTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D820BA320939915000BDDE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D820BA520939915000BDDE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +39,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D4316772093C9E600F1EE50 /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5D4316782093C9F200F1EE50 /* Storyboard */,
+			);
+			path = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		5D4316782093C9F200F1EE50 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5D4316792093CA0900F1EE50 /* AppStoryboard.swift */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
 		5D820B9720939914000BDDE4 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				5D820BB520939D65000BDDE4 /* Shared */,
+				5D4316772093C9E600F1EE50 /* Helper Classes */,
 				5D820BA320939915000BDDE4 /* AppDelegate.swift */,
 				5D820BA520939915000BDDE4 /* ViewController.swift */,
 				5D820BA720939915000BDDE4 /* Main.storyboard */,
@@ -148,6 +167,7 @@
 			files = (
 				5D820BA620939915000BDDE4 /* ViewController.swift in Sources */,
 				5D820BA420939915000BDDE4 /* AppDelegate.swift in Sources */,
+				5D43167A2093CA0900F1EE50 /* AppStoryboard.swift in Sources */,
 				5D820BB720939D96000BDDE4 /* AppMode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

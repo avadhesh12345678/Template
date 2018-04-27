@@ -17,9 +17,9 @@ public enum AppMode: String {
     public static var current:AppMode {
         
         #if DEBUG
-        
+        return .debug
         #else
-        
+        return .release
         #endif
     }
 }
